@@ -94,16 +94,22 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="PrM-Ee-e46" id="zPL-9E-9m3"/>
+                        <outlet property="byteView" destination="bPn-Vk-2x4" id="Cpd-11-EMr"/>
+                        <outlet property="currencyLabel" destination="Rkd-KO-ZcR" id="ca0-xP-mI7"/>
+                        <outlet property="currencyPicker" destination="pEt-oL-Ako" id="PFR-Gt-zAV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273.91304347826087" y="119.86607142857142"/>
+            <point key="canvasLocation" x="-2025" y="33"/>
         </scene>
     </scenes>
     <resources>
         <image name="bitcoinsign.circle.fill" catalog="system" width="128" height="121"/>
         <namedColor name="backgroundColor">
-            <color red="1" green="0.89723941173262145" blue="0.5711480975151062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.8970000147819519" blue="0.57099997997283936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="iconColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
