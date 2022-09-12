@@ -52,3 +52,7 @@ struct CoinManager {
         }
     }
 }
+
+
+
+
